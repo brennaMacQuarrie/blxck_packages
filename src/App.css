@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background-color: #222222;
+  min-height: 100vh;
+  height: fit-content;
+  width: 100%;
+  padding: 40px 0;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+@font-face {
+  font-family: "Russo";
+  src: url("/public/fonts/RussoOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "SpaceAge";
+  src: url("/public/fonts/space-age.ttf");
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("/public/fonts/arial_narrow.ttf");
+}
+
+.white-stroke {
+  color: transparent;
+  -webkit-text-stroke: 0.7px white;
+}
+.yellow-stroke {
+  color: transparent;
+  -webkit-text-stroke: 0.7px  #e7c376;
+}
+.blue-stroke {
+  color: transparent;
+  -webkit-text-stroke: 0.7px  #96eff9;
+}
