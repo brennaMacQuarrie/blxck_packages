@@ -6,6 +6,10 @@
   width: 100%;
   padding: 40px 0;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .App-logo {
